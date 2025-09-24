@@ -3,15 +3,17 @@ este proyecto es una comparativa y prueba de dos calculadora en ANTLR4 para leng
 
 # Estructura
 calculadora:
-  -original:
-    *original.g4
-    *EvalVisitor.py
-    *main.py
+-original:
+    original.g4,
+    EvalVisitor.py,
+    main.py,
+    (demas archivos generados..)
     
-  -modificado:
-    *modificado.g4
-    *EvalVisitor.py
-    *main.py
+-modificado:
+    modificado.g4,
+    EvalVisitor.py,
+    main.py,
+    (demas archivos generados..)
     
   -pruebas.txt
 ambas calculadoras aceptan el mismo archivo de pruebas, que contiene diferentes operaciones a comprobar y comparar 
