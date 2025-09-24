@@ -46,7 +46,7 @@ Probando las expresiones para la calculadora original y la modificada, algunos d
 | --- | --- | --- |
 | 5-6-1 | -2.0 |  |
 | 2+5*7 | 37.0 |  |
-| 4/2*5 |  | 10.0 |
+| 4/2*5 | 10.0 | |
 | (2/1)+3*5-1 | 16.0 |  |
 | 134+45-35*2 | 109.0 |  |
 | 45-7*(8-3) | 10.0 |  |
