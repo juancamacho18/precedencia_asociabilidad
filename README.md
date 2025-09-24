@@ -44,15 +44,14 @@ Como ya se menciono, este proyecto es una prueba para una calculadora usando la 
 Probando las expresiones para la calculadora original y la modificada, algunos de los resultados que muestran son los siguientes:
 | Expresion | Resultado calculadora normal | Resultado calculadora modificada |
 | --- | --- | --- |
-| 5-6-1 |  |  |
-| 2+5*7 |  |  |
-| 4/2*5 |  |  |
-| (2/1)+3*5-1 |  |  |
-| 134+45-35*2 |  |  |
-| 45-7*(8-3) |  |  |
-| 6+7*8-6/2 |  |  |
-| sqrt(9) |  |  |
-| 10! |  |  |
+| 5-6-1 | -2.0 |  |
+| 2+5*7 | 37.0 |  |
+| 4/2*5 |  | 10.0 |
+| (2/1)+3*5-1 | 16.0 |  |
+| 134+45-35*2 | 109.0 |  |
+| 45-7*(8-3) | 10.0 |  |
+| 6+7*8-6/2 | 59.0 |  |
+| sqrt(9) | 3.0 |  |
 
 # Conclusiones
 
