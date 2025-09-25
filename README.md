@@ -44,16 +44,19 @@ Como ya se menciono, este proyecto es una prueba para una calculadora usando la 
 Probando las expresiones para la calculadora original y la modificada, algunos de los resultados que muestran son los siguientes:
 | Expresion | Resultado calculadora normal | Resultado calculadora modificada |
 | --- | --- | --- |
-| 5-6-1 | -2.0 |  |
-| 2+5*7 | 37.0 |  |
-| 4/2*5 | 10.0 | |
-| (2/1)+3*5-1 | 16.0 |  |
-| 134+45-35*2 | 109.0 |  |
-| 45-7*(8-3) | 10.0 |  |
-| 6+7*8-6/2 | 59.0 |  |
-| sqrt(9) | 3.0 |  |
+| 5-6-1 | -2.0 | 0.0 |
+| 2+5*7 | 37.0 | 49.0 |
+| 4/2*5 | 10.0 | 0.4 |
+| (2/1)+3*5-1 | 16.0 | 20.0 |
+| 134+45-35*2 | 109.0 | 288.0 |
+| 45-7*(8-3) | 10.0 | 190.0 |
+| 6+7*8-6/2 | 59.0 | 13.0 |
+| sqrt(9) | 3.0 | 3.0 |
 
 # Conclusiones
+Se puede notar la diferencia de los resultados al alterar la precedencia y la asociatividad, de como normalmente esta definida; en la modificada es la suma y la resta quienes ahora tienen mayor precedencia que la multiplicación y la resta, por lo tanto a la hora de ir analizando la expresión aparte de verificar en el otro lado, siempre tendra en cuenta que que operadores se presentan y en base a ellos realizar una operación, siguiendo reglas gramaticas diferentes lo cual genera esos resultados diferentes, aunque parece trabajar en ambas calculadoras los parentesis y los operadores aritmeticos.
+
+Este ejercicio es importante para entender la importancia de el orden y la ambiguedad en una gramatica de una expresión o expresiones a analizar según como se defina la gramatica, con tal que tenga sentido y funcione correctamente.
 
 
     
